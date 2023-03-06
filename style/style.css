@@ -280,5 +280,129 @@ button:hover {
     text-align: center;
   }
 }
+.estimate {
+  padding: 0 20px 100px 20px;
+  background-color: #f8cdc5;
+}
+.estimate p {
+  text-align: center;
+}
+.estimate h4 {
+  font-size: 43px;
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+.estimate h4 span {
+  color: #f16f51;
+}
+.estimate .estimate-txt {
+  padding: 0 300px 50px 300px;
+}
+
+h5 {
+  font-size: 31px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.services article {
+  width: 428px;
+  padding: 10px;
+}
+.services .article-content {
+  width: 390px;
+  background-color: #ffffff;
+  border: solid 1.5px #000000;
+  padding: 25px;
+}
+.services p {
+  text-align: left;
+}
+.services img {
+  width: 385px;
+  height: 190px;
+  object-fit: cover;
+  margin-top: -120px;
+  margin-left: 25px;
+}
+
+.article-img:hover {
+  margin-top: -20px;
+  transition: all 0.3s ease-out;
+}
+
+.quote {
+  width: 100%;
+  border: solid 3px #f16f51;
+  background-color: #f1aa9d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px;
+  height: 250px;
+  background-image: url(../img/illustration-accueil-bretagne.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.quote button {
+  background-color: #f1aa9d;
+  color: #000000;
+  border-color: #000000;
+}
+.quote button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+  .services article {
+    width: 300px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .services .article-content {
+    width: 273px;
+  }
+
+  .services img {
+    width: 270px;
+    margin-top: -175px;
+  }
+
+  h4 {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .quote {
+    height: 200px;
+  }
+
+  .quote h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .estimate h4 {
+    font-size: 20px;
+  }
+
+  .services h5 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .estimate .estimate-txt {
+    padding: 0 0 20px 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
