@@ -149,6 +149,14 @@ button:hover {
 .presentation-img {
     flex: 0;
   }
+
+  .presentation-txt {
+    text-align: center;
+  }
+
+  .presentation-img {
+    max-width: 500px;
+  }
 }
 .scrolling-txt {
   color: #ffffff;
