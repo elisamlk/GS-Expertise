@@ -3,6 +3,17 @@
   display: flex;
   align-items: center;
   padding-top: 120px;
+  background-color: #000000;
+  color: #ffffff;
+  h2,
+  h3 {
+    margin-bottom: 10px;
+    font-size: 43px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
 }
 
 .presentation-txt,
@@ -29,5 +40,9 @@
   }
   .presentation-img {
     max-width: 500px;
+  }
+  .presentation h2,
+  .presentation h3 {
+    font-size: 25px;
   }
 }
