@@ -3,14 +3,18 @@
   display: flex;
   align-items: center;
   padding-top: 120px;
+  padding-left:40px;
   background-color: #000000;
   color: #ffffff;
+  h2 {
+    color: #f16f51;
+  }
   h2,
   h3 {
     margin-bottom: 10px;
     font-size: 43px;
+    font-family: "Abril Fatface", cursive;
   }
-
   p {
     margin-bottom: 20px;
   }
@@ -30,6 +34,7 @@
   .presentation {
     flex-direction: column;
     height: auto;
+    padding-left:0;
   }
   .presentation-txt,
   .presentation-img {
@@ -40,10 +45,17 @@
   }
   .presentation-img {
     max-width: 500px;
-    min-width:300px;
+    min-width: 300px;
+    margin-bottom:40px;
   }
   .presentation h2,
   .presentation h3 {
     font-size: 25px;
+  }
+  .presentation h3{
+   padding:10px;
+  }
+  .presentation p{
+    padding:0 10px 0 10px;
   }
 }
