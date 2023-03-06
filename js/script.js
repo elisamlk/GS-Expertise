@@ -12,17 +12,23 @@ $(".handle").on("click", function () {
   }
 });
 
-$(".img-bl").ready(function () {
-  $(".img-bl").hover(
-    function () {
-      console.log("ok");
-      $(this).attr("src", "img/accueil.png");
-    },
-    function () {
-      $(this).attr(
-        "src",
-        "img/photo-accueil-header-equipe-cabinet-gsexpertise.png"
-      );
-    }
-  );
-});
+$(".img-bl").hover(
+  function () {
+    $(this).attr(
+      "src",
+      "img/photo-accueil-header-equipe-cabinet-gsexpertise.png"
+    );
+  },
+  function () {
+    $(this).attr("src", "img/accueil.png");
+  }
+);
+
+$(".img-col").hover(
+  function () {
+    $(this).attr("src", "img/photo-accueil-cabinet-meeting-couleur.png");
+  },
+  function () {
+    $(this).attr("src", "img/photo-accueil-cabinet-meeting.png");
+  }
+);

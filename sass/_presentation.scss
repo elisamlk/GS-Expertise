@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   padding-top: 120px;
-  padding-left:40px;
+  padding-left: 40px;
   background-color: #000000;
   color: #ffffff;
   h2 {
@@ -27,7 +27,6 @@
 
 .presentation-img img {
   width: 100%;
- 
   object-fit: cover;
 }
 
@@ -35,7 +34,7 @@
   .presentation {
     flex-direction: column;
     height: auto;
-    padding-left:0;
+    padding-left: 0;
   }
   .presentation-txt,
   .presentation-img {
@@ -47,16 +46,16 @@
   .presentation-img {
     max-width: 500px;
     min-width: 300px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
   }
   .presentation h2,
   .presentation h3 {
     font-size: 25px;
   }
-  .presentation h3{
-   padding:10px;
+  .presentation h3 {
+    padding: 10px;
   }
-  .presentation p{
-    padding:0 10px 0 10px;
+  .presentation p {
+    padding: 0 10px 0 10px;
   }
 }
