@@ -110,9 +110,15 @@ button:hover {
     -webkit-animation: fadein 1s; /* Safari et Chrome */
     -o-animation: fadein 1s; /* Opera */
   }
-  a {
+  .mobile-device a {
     margin: 0;
     font-size: 20px;
+    padding: 20px;
+  }
+  .mobile-device button {
+    margin: 0;
+  }
+  .mobile-device .fa-xmark {
     padding: 20px;
   }
 }
