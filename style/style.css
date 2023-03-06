@@ -273,6 +273,7 @@ button:hover {
   color: #ffffff;
   display: flex;
   align-items: center;
+  border-bottom: solid 2px #f16f51;
 }
 .discover h1,
 .discover h3 {
@@ -519,6 +520,10 @@ input {
   padding: 10px;
   margin-bottom: 42px;
   position: relative;
+}
+
+input::placeholder {
+  color: #000000;
 }
 
 .terms {
