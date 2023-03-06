@@ -1,0 +1,26 @@
+.discover {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.discover-img,
+.discover-txt {
+  flex: 1;
+}
+
+.discover-img img {
+  width: 100%;
+  object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 650px) {
+  .discover {
+    flex-direction: column;
+  }
+  .discover-txt {
+    text-align: center;
+  }
+}
