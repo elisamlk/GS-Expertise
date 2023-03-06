@@ -7,15 +7,21 @@
   h4 {
     font-size: 43px;
     text-align: center;
-    padding: 40px 0 20px 0;
+
+    font-family: "Abril Fatface", cursive;
 
     span {
       color: #f16f51;
+      font-family: "Abril Fatface", cursive;
     }
   }
   .estimate-txt {
     padding: 0 300px 50px 300px;
   }
+}
+
+.estimate-title {
+  padding: 40px 0 20px 0;
 }
 
 h5 {
@@ -94,23 +100,22 @@ h5 {
     width: 270px;
     margin-top: -175px;
   }
-  h4 {
-    font-size: 20px;
-    padding: 0;
-  }
-  .quote {
-    height: 200px;
-  }
-  .quote h4 {
-    font-size: 20px;
-  }
 }
 
 @media screen and (max-width: 768px) {
-  .estimate h4 {
-    font-size: 20px;
+  .estimate .estimate-title {
+    font-size: 25px;
   }
   .services h5 {
+    font-size: 25px;
+  }
+  .estimate .estimate-txt {
+    padding: 0 0 20px 0;
+  }
+  .estimate .quote {
+    height: 180px;
+  }
+  .quote .quote-title {
     font-size: 20px;
   }
 }
