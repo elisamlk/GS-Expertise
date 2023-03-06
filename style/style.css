@@ -122,5 +122,33 @@ button:hover {
     padding: 20px;
   }
 }
+.presentation {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.presentation-txt,
+.presentation-img {
+  flex: 1;
+}
+
+.presentation-img img {
+  width: 100%;
+  height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .presentation {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .presentation-txt,
+.presentation-img {
+    flex: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
