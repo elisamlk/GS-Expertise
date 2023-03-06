@@ -3,6 +3,14 @@
   color: #ffffff;
   display: flex;
   align-items: center;
+  h1,
+  h3 {
+    font-size: 43px;
+    font-family: "Abril Fatface", cursive;
+  }
+  h1 {
+    color: #f16f51;
+  }
 }
 
 .discover-img,
@@ -10,10 +18,27 @@
   flex: 1;
 }
 
+.discover-txt {
+  padding-left: 40px;
+  p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 .discover-img img {
   width: 100%;
   object-fit: cover;
-  object-fit: cover;
+}
+
+@media screen and (max-width: 990px) {
+  .discover h1 {
+    font-size: 25px;
+  }
+
+  .discover h3 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -22,5 +47,17 @@
   }
   .discover-txt {
     text-align: center;
+  }
+  .discover-txt {
+    padding: 0;
+  }
+  .discover-txt h1{
+    padding:10px;
+  }
+  .discover-txt p{
+    padding: 10px 10px 30px 10px;
+  }
+  .discover-txt button{
+    margin-bottom:20px;
   }
 }
