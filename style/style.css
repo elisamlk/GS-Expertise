@@ -268,7 +268,7 @@ button:hover {
 }
 @media screen and (max-width: 576px) {
   .scrolling-txt {
-    font-size: 15px;
+    font-size: 11px;
   }
 }
 @media (min-width: 577px) and (max-width: 990px) {
